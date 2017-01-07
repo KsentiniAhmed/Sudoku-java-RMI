@@ -31,9 +31,11 @@ root@ahmed-PC:~/Bureau/Sudoku/client# cp ../server/FabSudokuInterface.class .
 root@ahmed-PC:~/Bureau/Sudoku/client# cp ../server/FabSudokuImpl_Stub.class .
 root@ahmed-PC:~/Bureau/Sudoku/client# javac *.java
 
-#on Déplace manuellement ou en utilisant la commande « mv » tous les fichiers du dossier « server » au dossier «www » sauf les fichiers suivants : DynamicSudokuServer.java, DynamicSudokuServer.class, Server.policy
+#Déplacer
+manuellement ou en utilisant la commande « mv » tous les fichiers du dossier « server » au dossier «www » sauf les fichiers suivants : DynamicSudokuServer.java, DynamicSudokuServer.class, Server.policy
 
-# Déplacer manuellement ou en utilisant la commande « mv » tous les fichiers du dossier « client » au dossier «www » sauf les fichiers suivants : DynamicClient.java, DynamicClient.class, Client.policy, Client2.policy
+#Déplacer
+manuellement ou en utilisant la commande « mv » tous les fichiers du dossier « client » au dossier «www » sauf les fichiers suivants : DynamicClient.java, DynamicClient.class, Client.policy, Client2.policy
 
 #si on modifie le code il faut faire la compliation :(www)
 root@ahmed-PC:~/Bureau/Sudoku/www# javac *.java 
